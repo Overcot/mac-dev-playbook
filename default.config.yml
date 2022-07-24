@@ -3,7 +3,7 @@ downloads: ~/.ansible-downloads/
 
 configure_dotfiles: false
 configure_terminal: true
-configure_osx: true
+configure_osx: false
 
 # Set to 'true' to configure the Dock via dockutil.
 configure_dock: true
@@ -20,11 +20,11 @@ dockitems_remove:
   - Music
   - Podcasts
   - 'App Store'
-dockitems_persist: [
+dockitems_persist: 
   - name: "Xcodes"
     path: "/Applications/Xcodes.app/"
-    path: 12
-]
+    pos: 12
+
 # - name: "Sublime Text"
 #   path: "/Applications/Sublime Text.app/"
 #   pos: 5
