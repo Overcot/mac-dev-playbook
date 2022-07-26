@@ -28,6 +28,7 @@ brew "xcbeautify"
 brew "robotsandpencils/made/xcodes"
 
 cask "1password"
+cask "balenaetcher" # flash OS images to SD cards & USB drives
 cask "docker"
 cask "google-chrome"
 cask "iterm2"

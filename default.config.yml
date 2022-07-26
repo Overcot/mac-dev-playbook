@@ -54,7 +54,20 @@ homebrew_taps:
 homebrew_use_brewfile: true
 
 # See `geerlingguy.mas` role documentation for usage instructions.
-mas_installed_apps: []
+mas_installed_apps: 
+  - { id: 1547075542, name: "Decode" }
+  - { id: 1459795140, name: "Klokki Slim" }
+  - { id: 905953485, name: "NordVPN" }
+  - { id: 967805235, name: "Paste" }
+  - { id: 441258766, name: "Magnet" }
+  - { id: 1289583905, name: "Pixelmator Pro" }
+  - { id: 475772902, name: "Night Sky" }
+  - { id: 899247664, name: "TestFlight"}
+  - { id: 640199958, name: "Developer" }
+  - { id: 568494494, name: "Pocket" }
+  - { id: 1176895641, name: "Spark" }
+  - { id: 904280696, name: "Things" }
+  - { id: 747648890, name: "Telegram" }
 
 mas_email: "overcot@yandex.ru"
 
@@ -63,10 +76,7 @@ osx_script: "~/.osx --no-restart"
 # Install packages from other package managers.
 # Note: You are responsible for making sure the required package managers are
 # installed, eg. through homebrew.
-composer_packages: []
-# - name: drush
-#   state: present # present/absent, default: present
-#   version: "^8.1" # default: N/A
+
 gem_packages: []
 # - name: bundler
 #   state: present # present/absent/latest, default: present
